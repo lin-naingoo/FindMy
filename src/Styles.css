@@ -1,0 +1,55 @@
+body {
+    font: 20px "Bitter", sans-serif;
+    margin: 24px;
+  }
+
+ol, ul {
+    padding-left: 30px;
+  }
+
+.square {
+    background: #999;
+    border: 1px solid #000;
+    float: left;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 44px;
+    height: 44px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 44px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .status {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .button {
+    background: burlywood;
+    border: 1px solid #999;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .game-moves {
+    margin-top: 20px;
+    margin-left: 44px;
+  }
